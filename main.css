@@ -1,0 +1,129 @@
+*{
+    font-family: Comic Sans MS, Comic Sans, cursive	;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+     font: cursive; 
+     font-family: 'montserrat', sans-serif; 
+    /*background-image: url('kalyan.jpg');*/
+     /*background-color: black; */
+     /*background-color: #293251; */
+     background-color: #293251; 
+
+     background-size: cover; 
+     background-position: top center; 
+}
+/* img {
+    width: 100%;
+    height: auto;
+} */
+/* img {
+    max-width: 100%;
+    height: auto;
+} */
+
+/* html {
+    background: url(bg-06.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    
+  } */
+
+.app-wrap{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: solid black;
+}
+
+header input{
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none; 
+    /* font-family: cursive; */
+    background-color: blueviolet;
+    color:solid black;
+    border-radius: 0px 16px 0px 16px;
+    border-bottom: 3px solid magenta;
+    font-size: 15px;
+    transition: 0.2s ease-out;
+}
+::placeholder{
+    color: black;
+    opacity: 1;
+}
+
+header input:focus{
+    background-color: #3fb0ac;
+}
+header input:hover{
+    background-color: #3fb0ac;
+}
+
+main{
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.location .city{
+    color: white;
+    font-size: 32px;
+    /* text-shadow: 0px 3px rgba(0, 0, 0, 0.4); */
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.location .date{
+    color: white;
+    /* text-shadow: 0px 3px rgba(0, 0, 0, 0.4); */
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.current .temp{
+    color: white;
+    font-size: 105px;
+    font-weight: 900;
+    margin: 30px 0px;
+    text-shadow: 1px 6px rgba(0, 0, 0, 0.6);
+}
+
+.current .temp span{
+    font-weight: 500;
+}
+
+.current .weather{
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+}
+
+.current .max-min{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+}
+
+
